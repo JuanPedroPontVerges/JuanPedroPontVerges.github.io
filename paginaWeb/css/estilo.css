@@ -1,6 +1,4 @@
-* {
-  overflow-x: hidden;
-}
+
 div.onPage {
   border: 1px;
   background-color: #d07c9c;
@@ -216,7 +214,6 @@ a:hover {
   text-decoration: none;
 }
 
-
 /* NAV BAR */
 #miBarra .navbar-nav .nav-item .nav-link {
   font-weight: 700;
@@ -340,7 +337,7 @@ a:hover {
 
 @media (max-width: 789px) {
   .titulo {
-    font-size:48px;
+    font-size: 48px;
   }
 
   .lineaAmar {
@@ -355,32 +352,44 @@ a:hover {
   .banner {
     height: 900px;
   }
+
   .appleStore {
     display: none;
   }
+
   .playStore {
     display: none;
   }
+
   .parallax {
-    height:530px;
+    height: 530px;
   }
+
   .parallax h2 {
     font-size: 48px;
   }
+
   .responsiveIcon {
     margin-left: 45%;
   }
+
   footer {
     height: 400px;
   }
+
   .pre-footer {
     height: 120px;
   }
+
   ::placeholder {
     font-size: 11px;
   }
 
   #miBarra.navbarColor1 {
     background-color: #8c3053 !important;
+  }
+
+  .responsivee {
+    height: 80px;
   }
 }
