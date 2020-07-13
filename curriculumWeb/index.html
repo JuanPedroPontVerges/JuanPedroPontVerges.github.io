@@ -6,14 +6,13 @@
     <meta name='author' content='Juan Pedro Pont Verges'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./public/css/hover.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./public/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue:700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
     <script src="https://smtpjs.com/v3/smtp.js"> </script>
-    <script src="./js/mailer.js"></script>
     <title>Juan Pedro Pont Verges</title>
 </head>
 
@@ -35,7 +34,7 @@
             <a href="#portfolio" class="button hvr-fade"> Ver mi trabajo</a>
         </div>
         <div class="welcome-image">
-           <img src="./assets/banners/welcome-img.png" alt="">
+           <img src="./public/assets/banners/welcome-img.png" alt="">
         </div>
     </section>
     </div>
@@ -60,15 +59,15 @@
                      <hr width="20%">
             <div class="proyects carta pd">
                 <a href="https://gigenaabogados.com/" data-aos="fade-right" target="_blank">
-                    <img src="./assets/iconos/icono.png" alt="" height="100" class="hvr-grow-shadow">
+                    <img src="./public/assets/iconos/icono.png" alt="" height="100" class="hvr-grow-shadow">
                     <h4>Pagina web para Gigena Abogados</h4>
                 </a>
                 <a href="http://yapp.com.ar/" data-aos="fade-left" target="_blank">
-                    <img src="./assets/iconos/icono2.png" alt="" height="100" class="hvr-grow-shadow">
+                    <img src="./public/assets/iconos/icono2.png" alt="" height="100" class="hvr-grow-shadow">
                     <h4>Pagina web para YAPP</h4>
                 </a>
                 <a href="http://corpal.com.ar/" data-aos="fade-up" target="_blank">
-                    <img src="./assets/iconos/icono3.png" alt="" height="100" class="hvr-grow-shadow">
+                    <img src="./public/assets/iconos/icono3.png" alt="" height="100" class="hvr-grow-shadow">
                     <h4>Pagina web para CORPAL</h4>
                 </a>
             </div>
@@ -78,39 +77,39 @@
             <hr width="20%">
         <ul class="gridSkills">
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/javascript.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/javascript.png" alt="" height="100" class="hvr-grow">
                 <h4>JavaScript</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/html.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/html.png" alt="" height="100" class="hvr-grow">
                 <h4>HTML</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/css.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/css.png" alt="" height="100" class="hvr-grow">
                 <h4>CSS</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/php.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/php.png" alt="" height="100" class="hvr-grow">
                 <h4>PHP</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/vue.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/vue.png" alt="" height="100" class="hvr-grow">
                 <h4>VueJS</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/bootstrap.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/bootstrap.png" alt="" height="100" class="hvr-grow">
                 <h4>Bootstrap</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/csharp.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/csharp.png" alt="" height="100" class="hvr-grow">
                 <h4>C#</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/java.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/java.png" alt="" height="100" class="hvr-grow">
                 <h4>Java</h4>
             </li>
             <li class="cartaIcono" data-aos="zoom-out">
-                <img src="./assets/iconos/sql.png" alt="" height="100" class="hvr-grow">
+                <img src="./public/assets/iconos/sql.png" alt="" height="100" class="hvr-grow">
                 <h4>SQL</h4>
             </li>
         </ul>
@@ -136,11 +135,11 @@
         <p class="leading">No dudes en dejarme algún mensaje para cualquier consulta <i class="em em---1"
                 aria-role="presentation" aria-label="THUMBS UP SIGN"></i>
         </p>
-        <form method="post" action="no_disponible.html">
+        <form method="post" action="send">
             <input type="text" placeholder="Nombre" id="nombre" name="nombre">
             <input type="email" placeholder="Mail" id="mail" name="email">
-            <textarea placeholder="Su Mensaje" name="" cols="20" rows="50" id="mensaje" name="mensaje"></textarea>
-            <button onclick="sendEmail()" class="button2  hvr-fade" id="boton">ENVIAR</button>
+            <textarea placeholder="Su Mensaje" cols="20" rows="50" id="mensaje" name="mensaje"></textarea>
+            <button type="submit" class="button2  hvr-fade" id="boton">ENVIAR</button>
         </form>
     </section>
 
@@ -148,12 +147,12 @@
         <div class="gridFooter">
             <h4 class="copyright text-center">Copyright 2020 </br> Juan Pedro</h4>
             <div class="sociales">
-                <a href="https://www.facebook.com/jppont" target="_blank"><img src="./assets/sociales/facebook.png"
+                <a href="https://www.facebook.com/jppont" target="_blank"><img src="./public/assets/sociales/facebook.png"
                         alt="" height="30px"></a>
                 <a href="https://www.linkedin.com/in/juan-pedro-pont-verges-a44630160/" target="_blank"><img
-                        src="./assets/sociales/linkedin.png" alt="" height="30px"></a>
+                        src="./public/assets/sociales/linkedin.png" alt="" height="30px"></a>
                 <a href="https://api.whatsapp.com/send?phone=5493516866950" target="_blank"><img
-                        src="./assets/sociales/whatsapp.png" alt="" height="30px"></a>
+                        src="./public/assets/sociales/whatsapp.png" alt="" height="30px"></a>
             </div>
         </div>
     </section>
