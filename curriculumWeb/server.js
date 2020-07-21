@@ -2,12 +2,19 @@ const path = require('path')
 const express = require('express')
 const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
+const app = express()
 
-const app = express(),
-DIST_DIR = __dirname,
+DIST_DIR = __dirname
 HTML_FILE = path.join(DIST_DIR, 'index.html')
 
-app.use(express.static(DIST_DIR))
+const options = {
+    setHeaders: function (res, path, stat) {
+        res.statusCode = 200
+        res.setHeaders('Content-Type', 'text/html')
+    }
+}
+
+app.use(express.static(DIST_DIR,options))
 
 app.use(bodyParser.urlencoded({
     extended: false

@@ -5,8 +5,12 @@ body {
     sans-serif;
     margin: 0;
     padding: 0;
+    overflow: hidden !important;
 }
 
+html {
+   overflow-x: hidden !important;
+}
 
 * {
     scroll-behavior: smooth;
@@ -288,10 +292,23 @@ nav a:nth-child(3) {
 }
 
 #contact form {
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(4,minmax(30px,auto));
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact input {
+    margin: 20px;
+    max-width: 320px;
+}
+
+#contact button {
+    margin: 20px;
+}
+
+#contact textarea {
+    max-width: 320px;
 }
 
 #skills {
@@ -307,7 +324,7 @@ background-size: cover;
 }
 
 .proyects img {
-    max-width: 100%;
+    width: auto;
 }
 
 .carta a:nth-child(1) {
@@ -366,6 +383,7 @@ background-size: cover;
     grid-template-columns:repeat(2,1fr);
     grid-auto-rows: minmax(300px,auto);
     padding: 20px;
+    grid-gap: 100px;
 }
 
 .welcome-text {
@@ -446,8 +464,9 @@ background-size: cover;
     text-align: center;
 }
 
+
 .cartaIcono {
-    width: 180px;
+    width: auto;
     height: 160px;
     margin: 10px;
     border-radius: 20px;
@@ -470,6 +489,10 @@ background-size: cover;
     font-family: 'Rubik',
     sans-serif;
     text-shadow: 2px 2px 4px #162955;
+}
+
+section .rayas {
+    height: 10px;
 }
 
 #prueba {
