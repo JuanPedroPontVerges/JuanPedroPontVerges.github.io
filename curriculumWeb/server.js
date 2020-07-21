@@ -36,14 +36,13 @@ app.post('/send', (req,res) => {
                 <h3>Mensaje:</h3> 
                 <p>${req.body.mensaje}</p>
             `
-
     let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 465,
         secure: true, // upgrade later with STARTTLS
         auth: {
-            user: "jppontverges@gmail.com",
-            pass: "Juanpedro+2"
+            user: "controlparagithub@gmail.com",
+            pass: "Hola+1234"
         },
         tls: {
             rejectUnauthorized: false
