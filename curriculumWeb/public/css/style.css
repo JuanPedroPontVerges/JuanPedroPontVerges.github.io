@@ -117,7 +117,7 @@ nav a {
 @media only screen and (max-width: 515px) {
     
     #portfolio {
-        height: 1400px !important;
+        height: 1750px !important;
     }
     .carta a:nth-child(1) {
         grid-column: span 12 !important;
@@ -142,6 +142,11 @@ nav a {
     .carta a:nth-child(5) {
         grid-column: span 12 !important;
         grid-row: 5 !important;
+    }
+
+    .carta a:nth-child(6) {
+        grid-column: span 12 !important;
+        grid-row: 6 !important;
     }
 
     .gridSkills {
@@ -370,7 +375,7 @@ background-size: cover;
 }
 
 .carta a:nth-child(5) {
-    grid-column: 5/9;
+    grid-column: 2/6;
     grid-row: 3;
 }
 
@@ -380,8 +385,13 @@ background-size: cover;
 }
 
 .carta a:nth-child(7) {
-    grid-column: 5/9;
-    grid-row: 5;
+    grid-column: 2/6;
+    grid-row: 4;
+}
+
+.carta a:nth-child(8) {
+    grid-column: 8/12;
+    grid-row: 4;
 }
 
 #welcome {
