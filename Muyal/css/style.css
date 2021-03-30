@@ -1,0 +1,77 @@
+@font-face {
+    font-family: muyal;
+    src: url(../assets/font/Optima\ nova\ LT\ Regular.ttf);
+}
+
+a {
+    transition: all 0.5s ease-in !important;
+}
+
+.botones {
+    margin-top: 15% !important;
+}
+
+.button-container {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.boton-ingles {
+    background-color: #212529 !important;
+    width: 60vw;
+}
+
+.boton-espanol {
+    background-color: #212529 !important;
+    width: 60vw;
+}
+
+.menu {
+    background-image: url('../assets/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.menu h1 {
+    font-size: 80px;
+    font-family: muyal;
+    color: white;
+    margin-top: 10%;
+    text-shadow: 4px 4px 4px black;
+}
+
+.menu h2 {
+    text-shadow: 4px 4px 4px black;
+    font-size: 78px;
+    font-family: muyal;
+    color: white;
+    margin-top: 10%;
+}
+
+.menu p {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 5px;
+    margin-top: 0.1em;
+}
+
+.menu a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.botones-menus button {
+    margin-top: 15% !important;
+    width: 80vw;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+}
+
+.btn-outline-dark {
+    border-width: thick !important;
+}

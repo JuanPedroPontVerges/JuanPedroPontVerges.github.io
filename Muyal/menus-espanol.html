@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Menus</title>
+</head>
+
+<body>
+    <div class="container-fluid menu">
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-dark btn-sm" onclick="goBack()"
+                    style="font-size: 30px !important; margin-top:10%;">&larr;</button>
+            </div>
+        </div>
+        <div class="row text-center">
+            <h1>Menus</h1>
+        </div>
+        <div class="row botones-menus">
+            <div class="col-24 button-container">
+                <button class="btn btn-outline-dark">
+                    <a href="./assets/menus/muyal-espanol.pdf" target="blank">
+                        <p>Muyal</p>
+                    </a>
+                </button>
+            </div>
+            <div class="col-24 button-container">
+                <button class="btn btn-outline-dark">
+                    <a href="./assets/menus/sabio-espanol.pdf" target="blank">
+                        <p>Sabio</p>
+                    </a>
+                </button>
+            </div>
+            <div class="col-24 button-container">
+                <button class="btn btn-outline-dark">
+                    <a href="./assets/menus/desayuno-espanol.pdf" target="blank">
+                        <p>Desayuno</p>
+                    </a>
+                </button>
+            </div>
+            <div class="col-24 button-container">
+                <button class="btn btn-outline-dark">
+                    <a href="./assets/menus/vinos.jpeg" target="blank">
+                        <p>Vinos</p>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
